@@ -1,0 +1,1 @@
+vlc screen:// :screen-fps=10 :screen-caching=10 --sout '#transcode{venc=theora,quality:10,scale=1.0,fps=10}:http{mux=ogg,dst=:8181/graph}'
